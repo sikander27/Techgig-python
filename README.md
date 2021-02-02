@@ -1,6 +1,6 @@
 # TechGig 30 Days Coding Challenge (PYTHON)
 
-## All the solution code are written in python 3.7
+## All the solution codes are written in python 3.7
 
 ## Detailed Description of Challenges
 
