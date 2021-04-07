@@ -22,28 +22,32 @@ def main():
 # main()
 
 ''' Read input from STDIN. Print your output to STDOUT '''
-    #Use input() to read input from STDIN and use print to write your output to STDOUT
+    #Use input() to read input from STDIN and 
+    # use print to write your output to STDOUT
 
 # time complexity of log(N)
 def sk_solution():
     size = int(input())
     arr = list(map(int, input().split()))
     total = int(input())
-    arr2 = set()
-    flag = False
+    # arr2 = set()
+    arr2 = []
+    # flag = False
     # arr.sort()
     for i in arr:
         if i > total:
-            pass
+            continue
         else:
             rem = total - i
             if rem in arr2:
                 flag = True
+                pair = list(( arr.index(rem), arr.index(i)))
+                return pair
                 break
             else:
-                arr2.add(i)
+                arr2.append(i)
     # print(arr2)
-    print(flag)   
+    # print(flag)   
 
-sk_solution()
+print(sk_solution())
 

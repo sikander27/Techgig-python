@@ -1,7 +1,8 @@
 '''
 Minimum effort - Maximum output (100 Marks)
 For this challenge, Given an unsorted array arr[0..n-1] of size n, 
-find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted.
+find the minimum length subarray arr[s..e] such that sorting this subarray 
+makes the whole array sorted.
 '''
 
 ''' Read input from STDIN. Print your output to STDOUT 
@@ -12,7 +13,7 @@ OUTPUT=>4 7 10 11 7 12 3 7
 
 def printUnsorted(arr, n): 
 	e = n-1
-	# step 1(a) of above algo 
+	# checking if arr is already sorted and getting strat index of unsorted array
 	for s in range(0,n-1): 
 		if arr[s] > arr[s+1]: 
 			break
@@ -21,7 +22,7 @@ def printUnsorted(arr, n):
 		print ("The complete array is sorted") 
 		exit() 
 
-	# step 1(b) of above algo 
+	# getting end the index from where array is unsorted
 	e= n-1
 	while e > 0: 
 		if arr[e] < arr[e-1]: 

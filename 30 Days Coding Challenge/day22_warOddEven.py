@@ -1,6 +1,9 @@
 '''
 War between odd and even (100 Marks)
-For this challenge, you need to take number of elements as input on one line and array elements as an input on another line. You need to find the numbers that are present at odd index, add them. find the numbers that are present at even index, add them and then subtract the smallest of the two values from the lager one.
+For this challenge, you need to take number of elements as input on one line and
+ array elements as an input on another line. 
+ You need to find the numbers that are present at odd index, add them. 
+ find the numbers that are present at even index, add them and then subtract the smallest of the two values from the lager one.
 Note:
 Array indexes always starts from 0.
 

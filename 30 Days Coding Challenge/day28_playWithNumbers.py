@@ -1,6 +1,7 @@
 '''
 Compare two numbers (100 Marks)
-For this challenge, you will take two integers input from stdin, sum the digits of a number and same is to be done with another number. Then compare the sum of the digits of two numbers and if one sum found to be greater then print that number to the stdout. If found both sum to be equal then print 'Equal' to the stdout.
+For this challenge, you will take two integers input from stdin, 
+
 
 Input=> 345678   444444
 Outpu=> 345678

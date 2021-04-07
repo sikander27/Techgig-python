@@ -1,5 +1,6 @@
 """
-For this challenge, you need to take number of elements as input on one line and array elements as an input on another line
+For this challenge, you need to take number of elements as input on one line and
+ array elements as an input on another line
  and find the second largest array element and print that element to the stdout.
 
 """

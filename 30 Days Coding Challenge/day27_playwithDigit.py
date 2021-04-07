@@ -1,7 +1,11 @@
 '''
 
 Play with digits of a number (100 Marks)
-For this challenge, you will take an integer input from stdin, store it in a variable, find the digits in that number, identify digits that are odd and add them, identify which digits are even and add them. Subtract the smaller with the larger one.
+For this challenge, you will take an integer input from stdin, 
+store it in a variable, find the digits in that number,
+ identify digits that are odd and add them, 
+ identify which digits are even and add them. 
+ Subtract the smaller with the larger one.
 
 Input Format
 A single integer value to be taken as input from stdin and stored it in a variable of your choice. 

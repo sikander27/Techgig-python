@@ -1,6 +1,10 @@
 ''' Read input from STDIN. Print your output to STDOUT 
 Play With Average (100 Marks)
-For this challenge, you need to take number of elements as input on one line and array elements as an input on another line. You need to find the average of even numbers, then the average of odd numbers and add them (round the averages to the nearest integers).
+For this challenge, you need to take number of elements as input on one line and
+ array elements as an input on another line. 
+ You need to find the average of even numbers, 
+ then the average of odd numbers and 
+ add them (round the averages to the nearest integers).
 
 '''
     #Use input() to read input from STDIN and use print to write your output to STDOUT

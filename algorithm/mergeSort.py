@@ -1,13 +1,13 @@
 num = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0, 27, 95]
 
-
+# 0(nlogn)
 # this is the main method that performs the merging 
 def mergeFunc(left, right):
     result = []
     leftIndex = 0
     rightIndex = 0
 # looping while 
-    while leftIndex < len(left) and rightIndex < len(right) :
+    while leftIndex < len(left) and rightIndex < len(right):
         # comparing two array element
         if left[leftIndex] < right[rightIndex]:
             result.append(left[leftIndex])
@@ -32,7 +32,8 @@ def mergeSort(array):
       
     return mergeFunc(mergeSort(left), mergeSort(right) )
 
- 
+num = [2, 4, 7 , 100, 124, 97, 83, 27, 154]
+
 answer  = mergeSort(num)
 print(answer)
 
