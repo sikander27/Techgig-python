@@ -23,5 +23,17 @@ def main():
 
  # Write code here 
 
-main()
+# main()
 
+# write a function to check whether a number is odd or even without using % or / operator
+def checkEven(a):
+    print(bin(a))
+    print(bin(1))
+    print(a&1)
+    if a&1 == 1:
+
+        return 'Odd'
+    else:
+        return 'even'
+
+print(checkEven(71))
