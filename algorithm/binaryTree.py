@@ -4,14 +4,13 @@ class Node():
         self.left = None
         self.right = None
         self.data = data
-    
+
     def printTree(self):
         if self.left:
             self.left.printTree()
-        print(self.data,end=" ")
+        print(self.data, end=" ")
         if self.right:
             self.right.printTree()
-            
 
     def insert(self, data):
         if self.data:
@@ -27,8 +26,7 @@ class Node():
                     self.right.insert(data)
         else:
             self.data = Node(data)
-    
-    
+
     def traverse(self, root):
         res = []
         if root:
@@ -36,12 +34,11 @@ class Node():
             if root.left:
                 res = self.traverse(root.left)
             res.append(root.data)
-            if root.right:    
+            if root.right:
                 res = res + self.traverse(root.right)
             return res
 
-            
-        
+
 root = Node(10)
 root.left = Node(8)
 root.right = Node(27)
@@ -50,4 +47,4 @@ root.insert(7)
 root.insert(14)
 # root.printTree()
 print(root.tra())
-print(root.traverse(root)) 
+print(root.traverse(root))
